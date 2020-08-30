@@ -25,7 +25,7 @@ if len(my_list) > 1:
     for i in range(len(my_list)):
         if i % 2 == 0 and i <= len(my_list) - 2:
             my_list_1 = my_list[i]
-            my_list[i] = my_list[i+1]
-            my_list[i+1] = my_list_1
+            my_list[i] = my_list[i + 1]
+            my_list[i + 1] = my_list_1
 
 print(f'Результат: {my_list}')

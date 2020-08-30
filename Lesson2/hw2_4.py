@@ -15,11 +15,11 @@ if flag == '1' or flag == '!':
 else:
     line = input(f"Enter a string of multiple words separated by spaces: ")
 
-line_without_spaces = ' '.join(line.split()) # удаляем лишние пробелы
-new_line = line_without_spaces.split(' ') # разделяем на слова по пробелам
+line_without_spaces = ' '.join(line.split())  # удаляем лишние пробелы
+new_line = line_without_spaces.split(' ')  # разделяем на слова по пробелам
 
 print('Your enter a strig:\n"' + line + '"\n')
 
 print('Result:')
 for i in range(len(new_line)):
-    print(f'{i+1} - {new_line[i][:10]}')
+    print(f'{i + 1} - {new_line[i][:10]}')

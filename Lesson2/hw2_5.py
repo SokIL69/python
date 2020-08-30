@@ -26,7 +26,4 @@ for i in range(len(ratings)):
     if i == len(ratings) - 1:
         ratings.insert(0, rating)
 
-
 print(ratings)
-
-
